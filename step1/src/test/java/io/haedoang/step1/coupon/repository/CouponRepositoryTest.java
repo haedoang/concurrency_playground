@@ -1,12 +1,11 @@
 package io.haedoang.step1.coupon.repository;
 
-import io.haedoang.step1.base.entity.CustomAuditorAware;
 import io.haedoang.step1.coupon.domain.Coupon;
+import io.haedoang.step1.coupon.infra.CouponRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
-import org.springframework.context.annotation.Import;
 
 import java.util.UUID;
 

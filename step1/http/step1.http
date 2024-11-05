@@ -1,0 +1,8 @@
+### 다운로드하기
+POST localhost:8080/coupon/download
+Content-Type: application/json
+
+{
+   "couponId" : "9addc1dc-01f9-4235-a7eb-3d1214599082",
+   "userId" : "haedoang"
+}
