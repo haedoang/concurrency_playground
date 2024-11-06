@@ -16,6 +16,7 @@ import java.net.URI;
 @RequiredArgsConstructor
 public class CouponController {
 
+    //private final SynchronizedService synchronizedService;
     private final CouponDownloadService couponDownloadService;
 
     @PostMapping("/download")
