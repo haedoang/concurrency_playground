@@ -72,7 +72,6 @@ public class ConcurrencyTest {
         }
     }
 
-
     private void executeMultiThread(int threadCount, Runnable runnable) {
         CyclicBarrier cyclicBarrier = new CyclicBarrier(threadCount + 1); //main thread 포함
         ExecutorService es = Executors.newFixedThreadPool(threadCount);
