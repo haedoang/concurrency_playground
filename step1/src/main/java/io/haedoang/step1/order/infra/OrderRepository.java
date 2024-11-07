@@ -9,7 +9,6 @@ import java.util.Optional;
 
 public interface OrderRepository extends JpaRepository<Order, Long> {
 
-
     @Lock(LockModeType.OPTIMISTIC)
     Optional<Order> findOrderByOrderId(String orderId);
 }
