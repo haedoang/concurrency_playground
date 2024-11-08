@@ -2,8 +2,6 @@ package io.haedoang.step1.study;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
-import org.junit.jupiter.api.Test;
-import org.springframework.test.annotation.Repeat;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
@@ -64,7 +62,7 @@ public class ConcurrencyTest {
         }
 
         public void increment() {
-            this.count = count + 1;
+            count++;
         }
 
         public int getCount() {

@@ -11,4 +11,4 @@
 
 
 ### step1 k6
-> k6 run --vus 1 --duration 10s step1.js 
+> k6 run --duration 10s step1.js 

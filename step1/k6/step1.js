@@ -5,7 +5,7 @@ import { randomString } from 'https://jslib.k6.io/k6-utils/1.2.0/index.js';
 export default function () {
     const url = 'http://localhost:8080/coupon/download';
     const payload = JSON.stringify({
-        couponId: '791577ad-8a80-4789-b1e8-3c69f3db499f',
+        couponId: '941cdf94-6a5a-4e0d-9ae5-214044c01e0c',
         userId: `${randomString(10)}`,
     });
 
